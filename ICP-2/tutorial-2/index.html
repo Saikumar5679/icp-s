@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+
+</head>
+<body>
+<div ng-app="app" ng-controller="MainCtrl">
+    <label>State:</label>
+    <input type="text" ng-model="my.state" placeholder="Enter state here">
+
+    <label>Cityname:</label>
+    <input type="text" ng-model="my.cityname" placeholder="Enter city here">
+    <br>
+    <br>
+    <button data-ng-click="myfunction(my)">get weather</button>
+
+   <p >Currently {{tempf}} F and {{clear}} </p>
+</div>
+</body>
+
+<body>
+
+</body>
+</html>
